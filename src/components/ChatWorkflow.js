@@ -252,7 +252,7 @@ export default function ChatWorkflow() {
 
     if (showTrashIcon){
       timeout = setTimeout(() => {
-        setShowResetIcon(false);
+        setShowTrashIcon(false);
       }, 800);
     }
     return () => clearTimeout(timeout);
@@ -320,8 +320,8 @@ export default function ChatWorkflow() {
               onInit={setRFInstance}
               nodeTypes={nodeTypes}
               edgeTypes={edgeTypes}
-              handleDrop={handleDrop}
-              onDrag={handleDrag}
+              onDrop={handleDrop}
+              onDragOver={handleDrag}
               onNodesChange={onNodesChange}
               onEdgesChange={onEdgesChange}
               onConnect={handleNodeConnection}
