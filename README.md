@@ -6,6 +6,8 @@ The objective of this project is to develop a user-friendly and versatile Chatbo
 interface 🧑‍💻. Users can connect multiple message nodes to define the sequence and logic of chatbot interactions. Each node represents a specific message or action 💬, and users can arrange these nodes by dragging and dropping them ⬆️,
 thereby creating a clear visual representation of the chatbot’s flow . Additionally, the builder will support functionalities for saving the chat workflow ✅, resetting to previous workflows ↩, and clearing the current workflow ❌.
 
+<img width="1499" alt="Screenshot 2024-06-02 at 1 45 06 PM" src="https://github.com/satvikgoyal/chatbot-flow-builder/assets/60167253/87dd9b5d-d3c3-4aad-922a-d6c456601ce3">
+
 **Features 😻**
 
 - **Text Nodes:** Define individual text messages as nodes in the chatbot flow.
